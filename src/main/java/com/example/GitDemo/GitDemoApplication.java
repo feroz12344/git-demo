@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitDemoApplication {
 	public void addData(String deta){
 		System.out.println("adding data to repo");
-		if (deta.equals("java")){
+		if (deta.equals(Constant.detatype)){
 			System.out.println("welcome to ur system");
 		}
 	}
