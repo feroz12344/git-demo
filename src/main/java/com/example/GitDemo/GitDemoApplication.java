@@ -11,6 +11,9 @@ public class GitDemoApplication {
 			System.out.println("welcome to ur system");
 		}
 	}
+	public void add(){
+	System.out.println("adding some values");
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(GitDemoApplication.class, args);
